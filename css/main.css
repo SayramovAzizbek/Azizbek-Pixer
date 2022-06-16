@@ -82,14 +82,14 @@ header {
     line-height: 24px;
     color: var(--main-color-link);
     text-decoration: none;
-    /* transition: all 0.5s; */
+    transition: all 0.5s;
     border-bottom: 3px solid transparent;
 }
 
 .header-item{
     padding: 16px;
     border: 3px solid transparent;
-    /* transition: all 0.5s ease-in-out; */
+    transition: all 0.5s ease-in-out;
 }
 
 .header-item:hover {
@@ -99,10 +99,9 @@ header {
 .header-item:active {
     background-color: var(--main-black-color);
     opacity: 0.6;
-    color: var(--main-white-color);
 }
 
-.header-link:active{
+.header-item:active .header-link{
     color: var(--main-white-color);
 }
 
