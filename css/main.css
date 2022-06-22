@@ -44,10 +44,10 @@ body {
 
 /* Start Header */
 header {
-    background: var(--main-white-color);
-    box-shadow: 0px 4px 20px var(--main-box-shadow-color);
     position: fixed;
     width: 100%;
+    background: var(--main-white-color);
+    box-shadow: 0px 4px 20px var(--main-box-shadow-color);
 }
 
 .header-part {
@@ -174,11 +174,11 @@ header {
 .service-item h3,
 .how-we-work-text h2,
 .order-text h2 {
+    margin: 0;
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
     color: var(--main-color-link);
-    margin: 0;
 }
 
 .hero-text p,
@@ -189,11 +189,11 @@ header {
 .order-text p,
 .footer-pages-link,
 .footer-social-link {
+    margin: 16px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--main-color-link);
-    margin: 16px 0;
 }
 
 /* End of Hero Section */
@@ -207,8 +207,8 @@ header {
 .service-text,
 .how-we-work-text,
 .order-text {
-    width: 719px;
     margin: 0 auto;
+    width: 719px;
     text-align: center;
 }
 
@@ -223,17 +223,17 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
     padding: 8px 0 0 0;
+    list-style: none;
 }
 
 .service-item {
     width: 320px;
     margin-right: 70px;
+    padding: 24px 58px;
     background: var(--main-white-color);
     box-shadow: 0px 8px 8px #0000001a;
     border-radius: 5px;
-    padding: 24px 58px;
     transition: 0.5s;
 }
 
@@ -270,7 +270,6 @@ header {
 
 .smm-item::before {
     background-image: url('../images/smm-illustration.svg');
-    /* width: 176px; */
 }
 
 .crm-item,
@@ -280,12 +279,10 @@ header {
 
 .design-item::before {
     background-image: url('../images/design-illustration.svg');
-    /* width: 178px; */
 }
 
 .crm-item::before {
     background-image: url('../images/crm-illustration.svg');
-    /* width: 169px; */
 }
 
 .service-item-link {
@@ -299,8 +296,8 @@ header {
 }
 
 .service-item p {
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 .service-link-box {
@@ -322,8 +319,8 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 900px;
     margin: 0 auto;
+    width: 900px;
     list-style: none;
 }
 
@@ -403,8 +400,8 @@ header {
 }
 
 .order-part-form {
-    width: 348px;
     margin: 0 auto;
+    width: 348px;
     padding: 24px;
     background: var(--main-white-color);
     border-radius: 5px;
@@ -438,8 +435,8 @@ header {
 }
 
 .order-form-btn {
-    border: none;
     margin: 0 auto;
+    border: none;
 }
 
 /* End of Order Section */
@@ -460,8 +457,8 @@ footer {
 }
 
 .footer-main-title {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-main-title {
@@ -471,14 +468,14 @@ footer {
 }
 
 .footer-site-pages {
-    width: 143px;
     margin: 0 100px 0 87px;
+    width: 143px;
 }
 
 .footer-pages-item,
 .footer-social-item {
-    list-style: none;
     margin-bottom: 8px;
+    list-style: none;
 }
 
 .footer-pages-item:last-child,
@@ -494,9 +491,9 @@ footer {
 .footer-social-link::before {
     content: '';
     display: block;
+    margin-right: 8px;
     width: 30px;
     height: 23px;
-    margin-right: 8px;
     background-image: url('../images/telegram-icon.svg');
     background-repeat: no-repeat;
     background-position: center;
