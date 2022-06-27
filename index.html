@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixer</title>
     <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 
 <body>
@@ -24,6 +25,23 @@
                         <ol class="header-list">
                             <li class="header-item">
                                 <a class="header-link" href="./index.html">Bosh sahifa</a>
+                                <ul class="header-service-list">
+                                    <li class="header-sevice-item">
+                                        <a href="#">Vebsayt</a>
+                                    </li>
+                                    <li class="header-sevice-item">
+                                        <a href="#">Telegram bot</a>
+                                    </li>
+                                    <li class="header-sevice-item">
+                                        <a href="#">SMM</a>
+                                    </li>
+                                    <li class="header-sevice-item">
+                                        <a href="#">Grafik dizayn</a>
+                                    </li>
+                                    <li class="header-sevice-item">
+                                        <a href="#">CRM tizim</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="header-item">
                                 <a class="header-link" href="./service.html">Xizmatlar</a>
@@ -82,7 +100,7 @@
                             eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
                     </div>
                     <ul class="service-list">
-                        <li class="service-item">
+                        <li class="service-item" data-aos="zoom-in">
                             <a class="service-item-link" href="./website.html">
                                 <div class="service-item-box">
                                     <h3>Vebsayt tuzish</h3>
@@ -90,7 +108,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="service-item">
+                        <li class="service-item" data-aos="zoom-in">
                             <a class="service-item-link" href="./bot.html">
                                 <div class="service-item-box telegram-item">
                                     <h3>Telegram bot</h3>
@@ -98,7 +116,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="service-item">
+                        <li class="service-item" data-aos="zoom-in">
                             <a class="service-item-link" href="./smm.html">
                                 <div class="service-item-box smm-item">
                                     <h3>SMM</h3>
@@ -106,7 +124,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="service-item">
+                        <li class="service-item" data-aos="zoom-in">
                             <a class="service-item-link" href="./design.html">
                                 <div class="service-item-box design-item">
                                     <h3>Grafik dizayn</h3>
@@ -114,7 +132,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="service-item">
+                        <li class="service-item" data-aos="zoom-in">
                             <a class="service-item-link" href="./crm.html">
                                 <div class="service-item-box crm-item">
                                     <h3>CRM tizimlar</h3>
@@ -258,8 +276,8 @@
                                 rel="noopener noreferrer">Facebook</a>
                         </li>
                         <li class="footer-social-item instagram-icon-item">
-                            <a class="footer-social-link instagram-icon-item" href="https://www.instagram.com/" target="blank"
-                                rel="noopener noreferrer">Instagram</a>
+                            <a class="footer-social-link instagram-icon-item" href="https://www.instagram.com/"
+                                target="blank" rel="noopener noreferrer">Instagram</a>
                         </li>
                     </ul>
                 </div>
@@ -267,6 +285,15 @@
         </div>
     </footer>
     <!-- End of Footer Section -->
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2400,
+        });
+    </script>
 </body>
 
 </html>
